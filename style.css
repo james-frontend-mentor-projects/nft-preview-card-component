@@ -135,7 +135,8 @@ a:visited {
 .card-logo .eye img {
   opacity: 1;
 }
-.card-logo:hover .eye {
+.card-logo:hover .eye,
+.card-logo:focus-visible .eye {
   display: grid;
 }
 .card-logo > img {
